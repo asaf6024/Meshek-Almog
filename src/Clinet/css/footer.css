@@ -1,0 +1,46 @@
+.footer{
+    margin-bottom: 0px !important;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,59,1) 68%, rgba(0,212,255,1) 100%);
+    color:white;
+    text-align: right;
+}
+.footer links ul{
+    list-style-type: none;
+}
+.footer links li a{
+    color: white;
+    transition: color .2s;
+}
+.footer links li a:hover{
+      text-decoration:none;
+      color:#4180CB;
+}
+.footer about-company i{
+    font-size: 25px;
+}
+.footer about-company a{
+        color:white;
+        transition: color .2s;
+}
+.footer about-company a:hover{
+    color:#4180CB
+}
+      
+.location i{
+    font-size: 18px;
+}
+
+.location copyright p{
+    border-top:1px solid rgba(255,255,255,.1);
+} 
+
+.btn-floating{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,59,1) 68%, rgba(0,212,255,1) 100%);
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+}
+
+.btn-floating:hover {
+    font-size: xx-large;
+}
