@@ -6,6 +6,7 @@ function Gallery() {
   return (
     <div>
       <GalleryOfVeg/>
+    
     </div>
   );
 }

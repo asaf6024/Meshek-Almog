@@ -7,9 +7,20 @@
     
     cursor: not-allowed !important;
 }
+
 .invalidProduct h4{
     text-decoration: line-through;
 }
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+    background-color: inherit;
+}
+a.nav-link.Ripple-parent.active {
+    background-color: rgba(255,255,255,0.1)
+}
+a.nav-link.Ripple-parent.homeNav:not(:active) {
+    background-color: inherit; 
+}
+
 
 @media (max-width: 992px)
 {
@@ -40,8 +51,50 @@
     .navbar {
         position: relative !important;
     }
+    /* .col-md-6.white-text.text-center.text-md-right.mt-xl-5.mb-5 {
+        margin-top: 100px;
+        padding-top: 100px;
+        height: 500px;
+        padding-bottom: 10px;
+    } */
+
+
+    #apppage .view {
+        min-height: 70vh;
+        padding-top: 150px !important;
+        height: 100%;
+        padding-bottom: 10px;
+    }
     .col-md-6.white-text.text-center.text-md-right.mt-xl-5.mb-5 {
         padding-top: 100px;
     }
+    #apppage .view .carousel.carousel-fade.z-depth-1 {
+        display: none;
+    }
+
+    img.d-block.w-100 {
+        height: 300px;
+        /* width: 200px; */
+    }
+    .container-fluid {
+        min-height: 100px !important;
+    }
+    .navbar {
+        position: fixed !important;
+    }
+    .navbar-nav {
+        padding-left: 50px !important;
+    }
+    button.navbar-toggler:focus {
+        background-color: white;
+    }
+    nav.navbar-dark.fixed-top.scrolling-navbar.navbar.navbar-expand-md {
+        padding: 0;
+    }
+    .navbar-dark .navbar-brand {
+        margin: auto;
+        text-align: center
+    }
+  
 }
 

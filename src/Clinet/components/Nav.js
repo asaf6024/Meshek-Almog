@@ -61,9 +61,9 @@ class Nav2 extends React.Component {
                 <MDBNavbarToggler onClick={this.handleTogglerClick} />
                 <MDBCollapse isOpen={this.state.collapsed} navbar>
                   <MDBNavbarNav right>                 
-                    <MDBNavItem active>
+                    <MDBNavItem>
 
-                    <MDBNavLink to="/">בית</MDBNavLink>
+                    <MDBNavLink className = 'homeNav' to="/">בית</MDBNavLink>
 
                     </MDBNavItem>      
                     <MDBNavItem>
@@ -97,7 +97,7 @@ class Nav2 extends React.Component {
             {this.state.collapsed && overlay}
           </div>
 
-        <MDBView>
+        <MDBView className = 'navHeader'>
           <MDBMask className="d-flex justify-content-center align-items-center gradient">
             <MDBContainer>
               <MDBRow>

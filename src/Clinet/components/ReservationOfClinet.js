@@ -29,11 +29,10 @@ render(){
           <div className="clearfix" />
         </div>
         <div className="card-body">
-
+        
         <Product myProducts = {productsObj}/>
 
         </div>
-
       </div>
     </div>
     </div>

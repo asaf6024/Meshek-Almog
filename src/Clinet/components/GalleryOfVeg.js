@@ -5,20 +5,19 @@ import '../css/gallery.css'
 
 const images = [
     require('../img/witney4.jpeg'),
-    require('../img/witney4.jpeg'),
+    require('../img/veg6.jpeg'),
     require('../img/veg3.jpeg'),
     require('../img/canvas1.jpeg'),
     require('../img/tomato2.jpeg'),
     require('../img/witney1.jpeg'),
     require('../img/chery_tomato1.jpeg'),
     require('../img/yellow3.jpeg'),
-    require('../img/cucamber1.jpeg'),
-
-  "https://mdbootstrap.com/img/Others/documentation/img%20(151)-mini.jpg",
-  "https://mdbootstrap.com/img/Others/documentation/img%20(40)-mini.jpg",
-  "https://mdbootstrap.com/img/Others/documentation/img%20(148)-mini.jpg",
-  "https://mdbootstrap.com/img/Others/documentation/img%20(147)-mini.jpg",
-  "https://mdbootstrap.com/img/Others/documentation/img%20(149)-mini.jpg"
+    require('../img/cucamber1.jpeg')
+  // "https://mdbootstrap.com/img/Others/documentation/img%20(151)-mini.jpg",
+  // "https://mdbootstrap.com/img/Others/documentation/img%20(40)-mini.jpg",
+  // "https://mdbootstrap.com/img/Others/documentation/img%20(148)-mini.jpg",
+  // "https://mdbootstrap.com/img/Others/documentation/img%20(147)-mini.jpg",
+  // "https://mdbootstrap.com/img/Others/documentation/img%20(149)-mini.jpg"
 ];
 
 const smallImages = [
@@ -30,12 +29,12 @@ const smallImages = [
     require('../img/witney1a.jpeg'),
     require('../img/chery_tomato1a.jpeg'),
     require('../img/yellow3a.jpeg'),
-    require('../img/cucamber1a.jpeg'),
-  "https://mdbootstrap.com/img/Others/documentation/img%20(151)-mini.jpg",
-  "https://mdbootstrap.com/img/Others/documentation/img%20(40)-mini.jpg",
-  "https://mdbootstrap.com/img/Others/documentation/img%20(148)-mini.jpg",
-  "https://mdbootstrap.com/img/Others/documentation/img%20(147)-mini.jpg",
-  "https://mdbootstrap.com/img/Others/documentation/img%20(149)-mini.jpg"
+    require('../img/cucamber1a.jpeg')
+  // "https://mdbootstrap.com/img/Others/documentation/img%20(151)-mini.jpg",
+  // "https://mdbootstrap.com/img/Others/documentation/img%20(40)-mini.jpg",
+  // "https://mdbootstrap.com/img/Others/documentation/img%20(148)-mini.jpg",
+  // "https://mdbootstrap.com/img/Others/documentation/img%20(147)-mini.jpg",
+  // "https://mdbootstrap.com/img/Others/documentation/img%20(149)-mini.jpg"
 ];
 
 class GalleryOfVeg extends React.Component {
@@ -166,6 +165,7 @@ class GalleryOfVeg extends React.Component {
             </MDBCol> 
           </MDBRow>
         </div>
+
         {isOpen && (
           <Lightbox
             mainSrc={images[photoIndex]}
@@ -185,6 +185,7 @@ class GalleryOfVeg extends React.Component {
             }
           />
         )}
+        
       </MDBContainer>
       </div>
     );

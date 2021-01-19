@@ -71,3 +71,36 @@
 .btn{
     padding: .84rem 1.14rem !important
 }
+.md-form .prefix ~ label {
+    width: 100%;
+    margin-left: 0 !important;
+    text-align: right
+}
+.md-form .prefix {
+  
+    width: 100%;
+    text-align: left;
+}
+form{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+button#submitBtn {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,59,1) 68%, rgba(0,212,255,1) 100%);
+    color: white !important;
+}
+.propertyOfProduct h6 {
+    padding-left: 50px;
+}
+
+
+@media only screen and (max-width: 780px) {    
+    .propertyOfProduct{
+        margin: auto !important;      
+    }
+    .quantity {
+        width: 100%;
+    }
+  }
+

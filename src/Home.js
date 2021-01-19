@@ -11,7 +11,6 @@ function Home() {
   
   return (
     <div>
-
       <Introduction />
       <Carousel
       headline = 'הירקות שלנו'

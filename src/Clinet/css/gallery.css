@@ -405,3 +405,11 @@
   .img-fluid:hover {
     opacity: .8;
 }
+
+@media only screen and (max-width: 600px) {
+  img.ril-image-next.ril__imageNext.ril__image {
+    width: 60%;
+    height: inherit;
+    transform: none !important;
+}
+}
