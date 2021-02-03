@@ -44,6 +44,13 @@
 .btn-floating:hover {
     font-size: xx-large;
 }
+.contentFooter{
+    direction: ltr;
+}
+.contentFooter p a{
+    direction: ltr;
+    color: white;
+}
 @media only screen and (max-width: 600px) {
     .about-company, .links, .location {
         text-align: center;

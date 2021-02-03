@@ -3,7 +3,7 @@ const aboutobj = [
         name: 'יעקב אלמוג',
         jobTitle: 'חקלאי',
         bio: 'בדיקה',
-        phone: '972502820405',
+        phone: '972-502820405',
         image: 'https://mdbootstrap.com/img/Photos/Others/men.jpg',
         facebook: 'https://www.facebook.com/asaf.almog.5'
     },
@@ -11,7 +11,7 @@ const aboutobj = [
         name: 'אהובה אלמוג',
         jobTitle: 'חקלאית',
         bio: 'בדיקה',
-        phone: '972502820405',
+        phone: '972-502820405',
         image: 'https://mdbootstrap.com/img/Photos/Others/men.jpg',
         facebook: 'https://www.facebook.com/asaf.almog.5'
     }

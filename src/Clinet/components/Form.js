@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon, MDBInput } from 'mdbreact';
 import '../css/reservation.css'
+import MyModal from './MyModal'
+import Button from 'react-bootstrap/Button';
 
 const Form = (props) => {
-  console.log('roductsLogs', props.productsDetails)
+  // console.log('roductsLogs', props.productsDetails)
+
+  const [modalShow, setModalShow] = React.useState(false);
+
+
   return (
     <MDBContainer>
       <MDBRow>
@@ -48,10 +54,14 @@ const Form = (props) => {
             </div>
             <div>
               <div className="text-center">
-                <MDBBtn type='submit' outline  id = 'submitBtn'>
-                  שלח
-                   <MDBIcon far icon="paper-plane" className="ml-1" />
-                </MDBBtn>
+                <MyModal />
+                <Button variant="primary" onClick={() => setModalShow(true)}>
+                  שלח <MDBIcon far icon="paper-plane" className="ml-1" />
+                </Button>
+                <MyModal
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+                />
               </div>
             </div>
           </form>

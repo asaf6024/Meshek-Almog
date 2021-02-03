@@ -28,21 +28,21 @@ const ContactUs = () => {
           <br />
           <MDBRow className="text-center">
             <MDBCol md="4">
-              <MDBBtn tag="a" floating color="blue" className="accent-1">
-                <MDBIcon icon="map-marker-alt" /> <a class="btn-floating btn-lg btn-blue " href="https://www.waze.com/ul?ll=32.38633300%2C34.98637400&amp;navigate=yes">נווט</a>
+              <MDBBtn tag="a" floating color="blue" className="accent-1" href = 'https://www.waze.com/ul?ll=32.38633300%2C34.98637400&amp;navigate=yes' target = '_blank' >
+              <MDBIcon icon="map-marker-alt" />           
               </MDBBtn>
-              <p>רחוב האורן</p>
+              <p>רחוב האורן</p>           
               <p className="mb-md-0">מושב אחיטוב</p>
             </MDBCol>
             <MDBCol md="4">
-              <MDBBtn tag="a" floating color="blue" className="accent-1">
+              <MDBBtn tag="a" floating color="blue" className="accent-1" href = 'tel: 972-502820402 '>
                 <MDBIcon icon="phone" />
               </MDBBtn>
               <p>אהובה - 050-2820402</p>
               <p className="mb-md-0">ראשון - חמישי, 8:00-20:00</p>
             </MDBCol>
             <MDBCol md="4">
-              <MDBBtn tag="a" floating color="blue" className="accent-1">
+              <MDBBtn tag="a" floating color="blue" className="accent-1" href = 'mailto:asafalmog119@gmail.com<'>
                 <MDBIcon icon="envelope" />
               </MDBBtn>
               <p className="mb-md-0">asafalmog119@gmail.com</p>

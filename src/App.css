@@ -21,6 +21,10 @@ a.nav-link.Ripple-parent.homeNav:not(:active) {
     background-color: inherit; 
 }
 
+.modal-body, .modal-header {
+    margin: auto;
+}
+
 
 @media (max-width: 992px)
 {

@@ -24,18 +24,20 @@ class Footer extends React.Component{
     <div className="col-lg-3 col-xs-12 links">
       <h4 className="mt-lg-0 mt-sm-3">קישורים</h4>
         <ul className="m-0 p-0">
-          <li><a href="test" className = 'white-text'>מי אנחנו</a></li>
-          <li><a href="test" className = 'white-text'>הירקות שלנו</a></li>
-          <li><a href="test" className = 'white-text'>הזמנה</a></li>
-          <li><a href="test" className = 'white-text'>מיקום</a></li>
-          <li><a href="test" className = 'white-text'>צור קשר</a></li>
+          <li><a href= "/about" className = 'white-text'>מי אנחנו</a></li>
+          <li><a href="/vegeatbles" className = 'white-text'>הירקות שלנו</a></li>
+          <li><a href="/reservation" className = 'white-text'>הזמנה</a></li>
+          <li><a href="/gallery" className = 'white-text'>גלריה</a></li>
+          <li><a href="contact" className = 'white-text'>צור קשר</a></li>
         </ul>
     </div>
     <div className="col-lg-4 col-xs-12 location">
       <h4 className="mt-lg-0 mt-sm-4">מיקום</h4>
       <p>מושב אחיטוב, רחוב האורן</p>
-      <p className="mb-0"><i className="fa fa-phone mr-3"></i> 50-282-0405 (972)</p>
-      <p><i className="fa fa-envelope-o mr-3"></i>asafalmog119@gmail.com</p>
+      <div className = 'contentFooter'>
+      <p className="mb-0"><i className="fa fa-phone mr-3"></i><a href = 'tel:972-50-282-0405'>(972) 50-282-0405</a> </p>
+      <p><i className="fas fa-envelope"></i> <a href = 'mailto:asafalmog119@gmail.com'>asafalmog119@gmail.com</a></p>
+      </div>
     </div>
   </div>
 

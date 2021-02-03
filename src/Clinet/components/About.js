@@ -32,13 +32,13 @@ const About = () => {
               <MDBIcon size='lg' fab icon='facebook-f'></MDBIcon>
             </MDBBtn>
 
-            <MDBBtn rounded floating color='tw'>
-              <MDBIcon size='lg' fab icon='' href ={about.phone} ><i class="fa fa-phone"></i></MDBIcon>
+            <MDBBtn rounded floating color='tw' href ={`tel:${about.phone}`}>
+              <MDBIcon size='lg' fab icon='' ><i class="fa fa-phone"></i></MDBIcon>
             </MDBBtn>
 
-            <MDBBtn rounded floating color='dribbble'>
+            {/* <MDBBtn rounded floating color='dribbble'>
               <MDBIcon size='lg' fab icon='dribbble'></MDBIcon>
-            </MDBBtn>
+            </MDBBtn> */}
           </MDBCol>
 
           
